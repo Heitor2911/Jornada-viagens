@@ -1,6 +1,6 @@
 <!DOCTYPE html>
-<html lang="pt-br">
-  <head>
+<html lang="en">
+<head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="Jornada Viagens, uma agência apaixonada por criar viagens inesquecíveis.">
@@ -12,9 +12,9 @@
     <link rel="icon" href="Favicon.svg">
     <link rel="stylesheet" href="./css/style.css" />
     <title>Jornada Viagens</title>
-  </head>
-  <body>
-    <header class="main-header">
+</head>
+<body>
+     <header class="main-header">
       <a class="logo" href="index.html" title="voltar para a página inicial">
         <img
           class="img-mobile"
@@ -39,6 +39,7 @@
             </li>
             <li>
               <a
+                class="active"
                 href="pacotes-de-viagens.html"
                 target="_blank"
                 title="Acessar Pacotes de viagem"
@@ -54,136 +55,22 @@
         </nav>
       </div>
     </header>
-    <section class="hero">
-      <div class="hero-img"></div>
-      <h2>
-        Somos uma agência apaixonada por criar viagens inesquecíveis. Do destino
-        à seleção das atividades, cuidamos de todos os detalhes para que você
-        aproveite ao máximo cada momento da sua jornada!
-      </h2>
-    </section>
-    <section class="offers">
-      <div class="section-title">
-        <h2>Ofertas da Semana</h2>
-        <hr />
-      </div>
-      <div class="offers-cards">
-        <article class="card japao">
-          <header>
-            <p>HOTEL+AÉREO</p>
-            <h3>
-              Japão <br />
-              <span>R$ 4000</span>
-            </h3>
-          </header>
-          <footer>
-            <a href="#" class="button">Ver detalhes</a>
-          </footer>
-        </article>
-        <article class="card san-andreas">
-          <header>
-            <p>HOTEL+AÉREO</p>
-            <h3>
-              San Andreas <br />
-              <span>R$ 3000</span>
-            </h3>
-          </header>
-          <footer>
-            <a href="#" class="button">Ver detalhes</a>
-          </footer>
-        </article>
-        <article class="card paraiba">
-          <header>
-            <p>HOTEL+AÉREO</p>
-            <h3>
-              Paraíba <br />
-              <span>R$ 1200</span>
-            </h3>
-          </header>
-          <footer>
-            <a href="#" class="button">Ver detalhes</a>
-          </footer>
-        </article>
-        <article class="card manaus">
-          <header>
-            <p>HOTEL+AÉREO</p>
-            <h3>
-              Manaus <br />
-              <span>R$ 1600</span>
-            </h3>
-          </header>
-          <footer>
-            <a href="#" class="button">Ver detalhes</a>
-          </footer>
-        </article>
+    <section class="travel-packages hero">
+      <div class="hero-img">
+        <div class="hero-content">
+          <h1>Conheça o Japão!</h1>
+          <hr />
+          <p>
+            A Jornada possui o pacote perfeito para seu estilo e orçamento!
+            Conheça as belas paisagens e a cultura milenar deste belo país!
+          </p>
+        </div>
       </div>
     </section>
-    <section class="categories">
-      <div class="section-title">
-        <h2>Busque por Categoria</h2>
-        <hr />
-      </div>
-      <div class="categories-cards">
-        <a
-          class="card"
-          href="#"
-          target="_blank"
-          title="Busque pela categoria Pacotes Nacionais"
-        >
-          <img
-            src="img/icone-caminhada.png"
-            alt="ícone cinza representando uma pessoa fazendo tracking"
-          />
-          <h3 class="content-title">
-            Pacotes<br />
-            Nacionais
-          </h3>
-        </a>
 
-        <a
-          class="card"
-          href="#"
-          target="_blank"
-          title="Busque pela categoria Pacotes Internacionais"
-        >
-          <img
-            src="img/icone-aviao.png"
-            alt="ícone cinza representando um avião"
-          />
-          <h3 class="content-title">
-            Pacotes <br />
-            Internacionais
-          </h3>
-        </a>
-        <a
-          class="card single-line transfer"
-          href="#"
-          target="_blank"
-          title="Busque pela categoria Transfer"
-        >
-          <img
-            src="img/icone-onibus.png"
-            alt="ícone cinza representando um ônibus"
-          />
-          <h3 class="content-title">Transfer</h3>
-        </a>
-        <a
-          class="card single-line"
-          href="#"
-          target="_blank"
-          title="Busque pela categoria Seguro Viagem"
-        >
-          <img
-            src="img/icone-planeta.png"
-            alt="ícone cinza representando o planeta terra com um cadeado"
-          />
-          <h3 class="content-title">Seguro Viagem</h3>
-        </a>
-      </div>
-    </section>
-    <section class="destinations">
+    <section class="travel-packages destinations">
       <div class="section-title">
-        <h2>Destinos Populares</h2>
+        <h2>Destinos da Excursão</h2>
         <hr />
       </div>
       <div class="destination-items">
@@ -229,16 +116,19 @@
         </article>
       </div>
     </section>
-    <section class="payments">
+    <section class="travel-packages payments">
       <div class="section-title">
-        <h2>Condições de Pagamento</h2>
-        <hr>
+        <h2>Pagamento</h2>
+        <hr />
       </div>
       <div class="content-container">
         <div class="text-content">
-          <h3 class="content-title">Parcelamento em até 12x!</h3>
+          <h3 class="content-title">R$4000</h3>
+          <h3 class="content-title">Em até 12x</h3>
+
           <p class="content-text">
-            Viaje pagando em até 12 parcelas no cartão, à vista no crédito com 5% de desconto ou no Pix com 10% de desconto!
+            Viaje pagando em até 12 parcelas no cartão, à vista no crédito com
+            5% de desconto ou no Pix com 10% de desconto!
           </p>
         </div>
         <div class="image-gallery">
@@ -251,91 +141,110 @@
     <section class="testimonials">
       <div class="section-title">
         <h2>Depoimentos</h2>
-        <hr>
+        <hr />
       </div>
       <div class="testimonial-container">
         <article>
           <header>
-            <p>A Jornada foi uma das melhores agências de viagens que eu já experimentei. O serviço ao cliente foi excepcional, e toda a equipe foi muito atenciosa e prestativa.</p>
+            <p>
+              Tive uma experiência inesquecível. O pacote Japão me permitiu
+              explorar de templos antigos a cidades modernas. E o valor coube no
+              bolso, recomendo!
+            </p>
           </header>
           <footer>
-            <img src="img/avatar-talita.png" alt="Imagem de perfil da cliente Talita Villas Boas">
+            <img
+              src="img/travel-packages/avatar-julio.png"
+              alt="imagem de perfil do cliente Júlio Garibaldi"
+            />
             <div class="profile-content">
-              <h3>Talita Villas Boas</h3>
+              <h3>Júlio Garibaldi</h3>
               <div class="rating">
                 <span class="star">★</span>
                 <span class="star">★</span>
                 <span class="star">★</span>
-                <span class="star">★</span>
-                <span class="star">★</span>
-
+                <span class="star">☆</span>
+                <span class="star">☆</span>
               </div>
             </div>
           </footer>
         </article>
         <article>
           <header>
-            <p>Recomendo fortemente a agência de viagens Jornada. Eles oferecem um serviço personalizado e de alta qualidade que excedeu minhas expectativas em minha última viagem.</p>
+            <p>
+              Minha viagem para Tóquio foi incrível. O itinerário personalizado
+              me permitiu muito em pouco tempo. Excedeu minhas expectativas e já
+              quero viajar com a Jornada novamente!
+            </p>
           </header>
           <footer>
-            <img src="img/avatar-amari.png" alt="Imagem de perfil do cliente Amari Salin">
+            <img
+              src="img/travel-packages/avatar-lucia.png"
+              alt="imagem de perfil da cliente Lúcia S. Rabello"
+            />
             <div class="profile-content">
-              <h3>Amari Salin</h3>
+              <h3>Lúcia S. Rabello</h3>
               <div class="rating">
                 <span class="star">★</span>
                 <span class="star">★</span>
                 <span class="star">★</span>
-                <span class="star">★</span>
-                <span class="star">★</span>
+                <span class="star">☆</span>
+                <span class="star">☆</span>
               </div>
             </div>
           </footer>
         </article>
         <article>
           <header>
-            <p>Minha viagem com a Jornada foi incrível! Recomendo muito a agência para quem busca uma experiência emocionante e personalizada.</p>
+            <p>
+              Minha viagem para Osaka foi inesquecível! A Jornada organizou tudo
+              de forma perfeita, recomendo de olhos fechados!
+            </p>
           </header>
           <footer>
-            <img src="img/avatar-lauro.png" alt="Imagem de perfil do cliente Lauro Matos">
+            <img
+              src="img/travel-packages/avatar-olga.png"
+              alt="imagem de perfil da cliente Olga dos Reis"
+            />
             <div class="profile-content">
-              <h3>Lauro B. Matos</h3>
+              <h3>Olga dos Reis</h3>
               <div class="rating">
                 <span class="star">★</span>
                 <span class="star">★</span>
                 <span class="star">★</span>
-                <span class="star">★</span>
-                <span class="star">★</span>
+                <span class="star">☆</span>
+                <span class="star">☆</span>
               </div>
             </div>
+          </footer>
         </article>
       </div>
     </section>
-    <section class="bottom-hero">
-      <div class="hero-img second"></div>
+    <section class="travel-packages bottom-hero">
+      <div class="hero-img"></div>
     </section>
     <footer class="main-footer">
       <div class="footer-content">
-        <img src="img/logo-footer.png" alt="Logo completa do Jornava Viagens">
+        <img src="img/logo-footer.png" alt="logo completo Jornada Viagens" />
         <p>Horário de atendimento: 08h - 20h (Segunda a Sábado)</p>
-
         <p>Desenvolvido por Alura. Projeto fictício sem fins comerciais.</p>
       </div>
       <div class="footer-social">
-          <p>Acesse nossas redes:</p>
-          
-          <a href="#" 
-          target="_blank" 
-          title="Acesse o Twitter do Jornada Viagens">
-          <img src="img/icone-twitter.svg" 
-          alt="Icone do Twitter na cor branca"
+        <p>Acesse nossas redes:</p>
+
+        <a href="#" target="_blank" title="Acesse o Twitter do Jornada Viagens"
+          ><img
+            src="img/icone-twitter.svg"
+            alt="icone do Twitter na cor branca"
         /></a>
 
-          <a
+        <a
           href="#"
           target="_blank"
-          title="Acesse o Instagram do Jornada Viagens">
-          <img src="img/icone-instagram.svg"
-          alt="icone do Instagram na cor branca"
+          title="Acesse o Instagram do Jornada Viagens"
+          ><img
+            src="img/icone-instagram.svg"
+            alt="icone do Instagram na cor branca"
         /></a>
 
         <a href="#" target="_blank" title="Entre em contato através do whatsapp"
@@ -343,7 +252,7 @@
             src="img/icone-whatsapp.svg"
             alt="icone do whatsapp na cor branca"
         /></a>
-        </div>
+      </div>
     </footer>
-  </body>
+</body>
 </html>
